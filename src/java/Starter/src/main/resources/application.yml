@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      database:
+        register: VeloraDb_1
+      collection:
+        register: Velora_Users
+      key: mongodb+srv://ankurrathico18:1hsBwFuq2Jh44xsf@veloracluster1.zh9k5.mongodb.net/?retryWrites=true&w=majority&appName=VeloraCluster1
