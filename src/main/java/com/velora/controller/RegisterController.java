@@ -2,9 +2,6 @@ package com.velora.controller;
 
 import com.velora.data.RegisterResponse;
 import com.velora.data.User;
-import com.velora.data.login.LoginRequest;
-import com.velora.data.login.LoginResponse;
-import com.velora.service.LoginService;
 import com.velora.service.RegisterService;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +17,6 @@ public class RegisterController {
     this.registerService = registerService;
   }
 
-  @CrossOrigin(origins = "http://localhost:63342")
   @RequestMapping(method = RequestMethod.POST,
       value = "/register",
       consumes = "application/json",

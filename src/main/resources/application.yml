@@ -7,4 +7,4 @@ spring:
         register: VeloraDb_1
       collection:
         register: Velora_Users
-      key: mongodb+srv://ankurrathico18:1hsBwFuq2Jh44xsf@veloracluster1.zh9k5.mongodb.net/?retryWrites=true&w=majority&appName=VeloraCluster1
+      key: mongodb+srv://ankurrathico18:1hsBwFuq2Jh44xsf@veloracluster1.zh9k5.mongodb.net/?retryWrites=true&w=majority&appName=VeloraCluster1er1

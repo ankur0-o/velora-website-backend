@@ -16,14 +16,27 @@
         </processorPath>
         <module name="Starter" />
       </profile>
+      <profile name="Annotation profile for velora-website-backend" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/3.1.3/spring-boot-configuration-processor-3.1.3.jar" />
+        </processorPath>
+        <module name="velora-website-backend" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="code" target="17" />
       <module name="Starter" target="17" />
+      <module name="velora-website-backend" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Starter" options="-parameters" />
+      <module name="code" options="-parameters" />
+      <module name="velora-website-backend" options="-parameters" />
     </option>
   </component>
 </project>
